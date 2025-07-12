@@ -1,185 +1,185 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Work Sans", sans-serif;
 }
 
 /* ========= Hero Area ========= */
 .sale-fever {
-  font-size: 2rem;
-  font-weight: 500;
-  color: black;
-  text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+	color: black;
+	text-align: center;
 }
 
 .span-twenty-percent-off {
-  color: #E527B2;
+	color: #e527b2;
 }
 
 /* ========= Modal Button Alignment ========= */
 .modal-go-home-button {
-  margin-right: 74px;
+	margin-right: 74px;
 }
 
 /* ========= Mobile View: max-width 321px ========= */
 @media screen and (max-width: 321px) {
-  .hero-section {
-    padding: 20px;
-  }
+	.hero-section {
+		padding: 20px;
+	}
 
-  .hero-offer {
-    font-size: 24px;
-  }
+	.hero-offer {
+		font-size: 24px;
+	}
 
-  .hero-heading {
-    font-size: 24px;
-  }
+	.hero-heading {
+		font-size: 24px;
+	}
 
-  .hero-button {
-    width: 105px;
-    font-size: 20px;
-  }
+	.hero-button {
+		width: 105px;
+		font-size: 20px;
+	}
 
-  .modal-go-home-button {
-    margin-right: 44px;
-  }
+	.modal-go-home-button {
+		margin-right: 44px;
+	}
 }
 
 /* ========= Responsive Sidebar Center Fix ========= */
 @media screen and (max-width: 768px) {
-  #right-side-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
-  }
+	#right-side-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin-top: 20px;
+	}
 
-  .coupon-menu,
-  .dynamic-menu {
-    width: 90%;
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-  }
+	.coupon-menu,
+	.dynamic-menu {
+		width: 90%;
+		max-width: 400px;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-  #ordered-list {
-    text-align: center;
-  }
+	#ordered-list {
+		text-align: center;
+	}
 }
 
 /* ========= Responsive Button Resize Fix ========= */
 @media screen and (max-width: 480px) {
-  #make-purchase {
-    width: 180px;
-    height: 48px;
-    font-size: 16px;
-  }
+	#make-purchase {
+		width: 180px;
+		height: 48px;
+		font-size: 16px;
+	}
 
-  #sell {
-    margin-top: 10px;
-  }
+	#sell {
+		margin-top: 10px;
+	}
 }
 
 /* ========= Laptop View Fix: 1024px - 1440px ========= */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .hero-section {
-    padding: 3rem 2rem;
-  }
+	.hero-section {
+		padding: 3rem 2rem;
+	}
 
-  .hero-offer {
-    font-size: 1.75rem;
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-  }
+	.hero-offer {
+		font-size: 1.75rem;
+		padding-top: 2rem;
+		padding-bottom: 1.5rem;
+	}
 
-  .hero-heading {
-    font-size: 2.5rem;
-    line-height: 1.4;
-    padding: 0 1rem;
-  }
+	.hero-heading {
+		font-size: 2.5rem;
+		line-height: 1.4;
+		padding: 0 1rem;
+	}
 
-  .hero-button {
-    width: 160px;
-    height: 48px;
-    font-size: 18px;
-  }
+	.hero-button {
+		width: 160px;
+		height: 48px;
+		font-size: 18px;
+	}
 
-  .hero-two-image {
-    max-width: 360px;
-    width: 100%;
-    height: auto;
-    margin-top: 2rem;
-  }
+	.hero-two-image {
+		max-width: 360px;
+		width: 100%;
+		height: auto;
+		margin-top: 2rem;
+	}
 
-  .hero-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+	.hero-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
 
-  .card div.bg-\[\#1111110D\] {
-    padding: 3rem 2rem;
-  }
+	.card div.bg-\[\#1111110D\] {
+		padding: 3rem 2rem;
+	}
 
-  .card {
-    flex: 1 1 30%;
-    margin: 10px;
-  }
+	.card {
+		flex: 1 1 30%;
+		margin: 10px;
+	}
 
-  .card-section-1-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-  }
+	.card-section-1-container {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1.5rem;
+	}
 
-  #right-side-container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+	#right-side-container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 
-  .coupon-menu,
-  .dynamic-menu {
-    padding: 1.5rem;
-  }
+	.coupon-menu,
+	.dynamic-menu {
+		padding: 1.5rem;
+	}
 
-  #coupon-input-enable {
-    width: 200px;
-    height: 48px;
-    font-size: 16px;
-  }
+	#coupon-input-enable {
+		width: 200px;
+		height: 48px;
+		font-size: 16px;
+	}
 
-  #coupon-button-enable {
-    width: 90px;
-    height: 48px;
-    font-size: 16px;
-  }
+	#coupon-button-enable {
+		width: 90px;
+		height: 48px;
+		font-size: 16px;
+	}
 
-  #make-purchase {
-    width: 220px;
-    height: 54px;
-    font-size: 18px;
-    margin-top: 1rem;
-  }
+	#make-purchase {
+		width: 220px;
+		height: 54px;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
 
-  #ordered-list {
-    padding-left: 0.5rem;
-  }
+	#ordered-list {
+		padding-left: 0.5rem;
+	}
 }
 
 /* ========= Restore Center Alignment on Desktop for Promo Code Block ========= */
 @media screen and (min-width: 1024px) {
-  .promo-flex-fix {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
+	.promo-flex-fix {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		margin-top: 2rem;
+	}
 
-  .hero-button {
-    margin-top: 0.5rem;
-  }
+	.hero-button {
+		margin-top: 0.5rem;
+	}
 }
